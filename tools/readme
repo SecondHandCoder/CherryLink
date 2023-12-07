@@ -1,0 +1,10 @@
+Used to synthesize boot and app files
+
+Usage:
+    merge_bin.exe(windows)/merge_bin(linux)
+    parameter1: xxx.bin <output file name>
+    parameter2: xxx.bin <input file 1 name>
+    parameter3: 0x      <input file 1 offset>
+    parameter3: xxx.bin <input file 2 name>
+    parameter3: 0x      <input file 2 offset>
+    ...
