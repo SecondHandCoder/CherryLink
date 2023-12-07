@@ -1,5 +1,5 @@
 # CherryLink
-![Image text](https://github.com/SecondHandCoder/CherryLink/hardware/appearance.jpg)
+![Image text](https://github.com/SecondHandCoder/CherryLink/blob/main/hardware/appearance.jpg)
 ## Reference project
 0. Thanks to the developers of the following project.
 1. USB protocol stack: [CherryUSB](https://github.com/cherry-embedded/CherryUSB)
