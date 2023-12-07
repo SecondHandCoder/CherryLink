@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<settings>
+    <Stack>
+        <FillEnabled>0</FillEnabled>
+        <OverflowWarningsEnabled>1</OverflowWarningsEnabled>
+        <WarningThreshold>90</WarningThreshold>
+        <SpWarningsEnabled>1</SpWarningsEnabled>
+        <WarnLogOnly>1</WarnLogOnly>
+        <UseTrigger>1</UseTrigger>
+        <TriggerName>main</TriggerName>
+        <LimitSize>0</LimitSize>
+        <ByteLimit>50</ByteLimit>
+    </Stack>
+    <Trace1>
+        <Enabled>0</Enabled>
+        <ShowSource>1</ShowSource>
+    </Trace1>
+    <PlDriver>
+        <MemConfigValue />
+    </PlDriver>
+    <Jet>
+        <JetConnSerialNo>CherryLink CMSIS-DAP:131405213</JetConnSerialNo>
+        <JetConnFoundProbes>CherryLink CMSIS-DAP:131405213:WCH CMSIS-DAP:8A6C8F060F4A:</JetConnFoundProbes>
+        <DisableInterrupts>0</DisableInterrupts>
+        <LeaveRunning>0</LeaveRunning>
+        <MultiCoreRunAll>0</MultiCoreRunAll>
+    </Jet>
+    <ArmDriver>
+        <EnableCache>1</EnableCache>
+        <EnforceMemoryConfiguration>1</EnforceMemoryConfiguration>
+    </ArmDriver>
+    <DebugChecksum>
+        <Checksum>1030077450</Checksum>
+    </DebugChecksum>
+    <PlCacheRanges>
+        <CustomRanges0>0 0 536870912 1 0</CustomRanges0>
+        <CustomRangesText0>Code</CustomRangesText0>
+        <CustomRanges1>0 536870912 33554432 0 0</CustomRanges1>
+        <CustomRangesText1>SRAM</CustomRangesText1>
+        <CustomRanges2>0 570425344 33554432 0 0</CustomRanges2>
+        <CustomRangesText2>bit-banding</CustomRangesText2>
+        <CustomRanges3>0 1073741824 33554432 2 0</CustomRanges3>
+        <CustomRangesText3>Peripheral</CustomRangesText3>
+        <CustomRanges4>0 1107296256 33554432 2 0</CustomRanges4>
+        <CustomRangesText4>bit-banding</CustomRangesText4>
+        <CustomRanges5>0 3758096384 536870912 2 0</CustomRanges5>
+        <CustomRangesText5>Private peripheral</CustomRangesText5>
+    </PlCacheRanges>
+    <InterruptLog>
+        <GraphEnabled>0</GraphEnabled>
+        <LogEnabled>0</LogEnabled>
+        <ShowTimeLog>1</ShowTimeLog>
+        <SumEnabled>0</SumEnabled>
+        <ShowTimeSum>1</ShowTimeSum>
+        <SumSortOrder>0</SumSortOrder>
+    </InterruptLog>
+    <DataLog>
+        <GraphEnabled>0</GraphEnabled>
+        <LogEnabled>0</LogEnabled>
+        <ShowTimeLog>1</ShowTimeLog>
+        <SumEnabled>0</SumEnabled>
+        <ShowTimeSum>1</ShowTimeSum>
+    </DataLog>
+    <Interrupts>
+        <Enabled>1</Enabled>
+    </Interrupts>
+    <MemConfig>
+        <Base>1</Base>
+        <Manual>0</Manual>
+        <Ddf>1</Ddf>
+        <TypeViol>0</TypeViol>
+        <Stop>1</Stop>
+    </MemConfig>
+    <Simulator>
+        <Freq>10000000</Freq>
+        <FreqHi>0</FreqHi>
+        <MultiCoreRunAll>1</MultiCoreRunAll>
+    </Simulator>
+    <DisassembleMode>
+        <mode>0</mode>
+    </DisassembleMode>
+    <Breakpoints2>
+        <Count>0</Count>
+    </Breakpoints2>
+    <Aliases>
+        <Count>0</Count>
+        <SuppressDialog>0</SuppressDialog>
+    </Aliases>
+</settings>
