@@ -1,4 +1,5 @@
 # CherryLink
+![Image text](https://github.com/SecondHandCoder/CherryLink/hardware/appearance.jpg)
 ## Reference project
 0. Thanks to the developers of the following project.
 1. USB protocol stack: [CherryUSB](https://github.com/cherry-embedded/CherryUSB)
@@ -33,6 +34,28 @@
 ### Virtual serial port
 1. USB CDC interface analog a virtual serial port, Windows10 and above do not require driver installation, Windows7 requires installation of USBCDC driver.
 2. The maximum speed of virtual serial port is 9Mb/s(reference values given in the chip reference manual).
+## Interface description
+| Interface name | Function description |
+| :---: | :---: |
+| RX | Virtual serial port receive port |
+| TX | Virtual serial port transmit port |
+| TDI | JTAG interface TDI port |
+| TDO | JTAG interface TDO port |
+| TCK | JTAG interface or SWD interface TCK port |
+| TMS | JTAG interface or SWD interface TMS port |
+| GND*2 | Ground port |
+| 3.3V | 3.3V output port |
+| RST | Reset port |
+| Vref | Reference voltage port, taken from the target board or local board output port. <br> It determines the output voltage of other pins, maximum of 5V |
+| 5V | 5V output port |
+## Hardware description
+| File name | Description |
+| :---: | :---: |
+| 3DShell_CherryLink.zip | The shell production documents, divided into the upper and lower shells |
+| appearance.jpg | Product photos |
+| Gerber_CherryLink.zip | PCB production documents |
+| Panel_CherryLinkBoard,epanm | Production documents for upper shell stickers |
+| SCH_CherryLink.pdf | PCB schematic file |
 ## TODO
 1. A bootloader, due to USB-DFU requiring additional driver installation of upper computer, it may be necessary to develop a corresponding upper computer.
 2. A spi flash download tool, it may be necessary to develop a corresponding upper computer too.
