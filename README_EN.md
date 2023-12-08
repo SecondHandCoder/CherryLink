@@ -1,5 +1,5 @@
 # CherryLink
-[中文](https://github.com/SecondHandCoder/CherryLink/blob/main/README_CN.md)
+[中文](https://github.com/SecondHandCoder/CherryLink/blob/main/README.md)
 ## Reference project
 0. Thanks to the developers of the following project.
 1. USB protocol stack: [CherryUSB](https://github.com/cherry-embedded/CherryUSB)
