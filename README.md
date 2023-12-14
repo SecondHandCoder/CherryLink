@@ -30,7 +30,7 @@
 ### SWD/JTAG
 1. 支持KEIL, IAR或OpenOCD等通用的编程工具, 使用USB的WinUSB接口, Windows10以上免驱, Windows7需自行安装WinUSB驱动.
 2. SWD接口支持最高速度为18Mb/s.
-3. JTAG接口支持最高速度为9Mb/s, 提高PCB水平可提升至18Mb/s. 当前代码支持最高速度为9Mb/s.
+3. JTAG接口支持最高速度为9Mb/s.
 ### 虚拟串口
 1. USB-CDC接口虚拟串口, Windows10以上免驱, Windows7需自行安装USB-CDC驱动.
 2. 虚拟串口支持最高速度为9Mb/s(基于芯片开发手册的参考值).
