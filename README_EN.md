@@ -30,7 +30,7 @@
 ### SWD/JTAG
 1. Support universal debug/download tools such as KEIL IAR or OpenOCD, use USB WinUSB interface, Windows10 and above do not require driver installation, Windows7 requires installation of WinUSB driver.
 2. The maximum speed of SWD interface is 18Mb/s.
-3. The maximum speed of JTAG interface is 9Mb/s, improving PCB layout can enhance to 18Mb/s. Currently, the code supports a maximum of 9Mb/s.
+3. The maximum speed of JTAG interface is 9Mb/s.
 ### Virtual serial port
 1. USB-CDC interface analog a virtual serial port, Windows10 and above do not require driver installation, Windows7 requires installation of USB-CDC driver.
 2. The maximum speed of virtual serial port is 9Mb/s(reference values given in the chip reference manual).
